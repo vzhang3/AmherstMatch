@@ -25,3 +25,16 @@ banquet<-banquet %>%
   gs_read(ws="Form Responses 1")
 
 ```
+
+```{r}
+#parse through document (if x is Y, then add 1)
+```
+
+```{r}
+#match highest scored people to each other 
+```
+
+```{r}
+#figure out how to send an email out to each party 
+```
+
