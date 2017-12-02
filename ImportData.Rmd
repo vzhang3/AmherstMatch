@@ -18,5 +18,10 @@ When you click the **Knit** button a document will be generated that includes bo
 install.packages("googlesheets")
 suppressMessages(library(dplyr))
 my_sheets<- gs_ls()
+my_sheets %>% glimpse()
+banquet<-gs_title("fall_banquet_2K17")
+banquet
+banquet<-banquet %>% 
+  gs_read(ws="Form Responses 1")
 
 ```
